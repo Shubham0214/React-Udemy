@@ -1,3 +1,5 @@
+//Learn different Hooks -- useState,useCallback, useEffect, useRef
+
 import { useState, useCallback, useEffect, useRef } from "react";
 import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
@@ -58,7 +60,7 @@ function App() {
             Copy
           </button>
         </div>
-        <div className="flex text-sm gap-x-2">
+        <div className="flex text-sm gap-2 justify-center">
           <div className="flex items-center gap-x-1">
             <input
               type="range"
